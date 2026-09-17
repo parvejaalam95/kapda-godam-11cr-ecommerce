@@ -1,0 +1,212 @@
+{
+  "brand": {
+    "name": "Kapda Godam",
+    "tagline": "Wholesale Jeans & Shirts Hub",
+    "location": "Ulhasnagar 5, Maharashtra, India",
+    "owners": [
+      "Shamsuddin Idrisi",
+      "Tabrez Idrisi"
+    ],
+    "business_type": "Exclusive B2B Wholesale Clothing Manufacturer & Distributor",
+    "positioning": "Strictly Wholesale (B2B). Enforced Minimum Order Quantity (MOQ). Bulk pricing tier transparency."
+  },
+  "design_archetype": "Luxury Industrial B2B Wholesale (Archetype 5 x Swiss Precision)",
+  "theme": {
+    "mode": "dark-dominant-with-light-surfaces",
+    "colors": {
+      "background_dark": "#0B0D11",
+      "surface_dark": "#131722",
+      "surface_card": "#1A202C",
+      "border_dark": "rgba(255, 255, 255, 0.12)",
+      "primary_gold": "#D4AF37",
+      "primary_gold_hover": "#E5C158",
+      "denim_blue": "#1E3A8A",
+      "denim_accent": "#3B82F6",
+      "text_primary": "#F9FAFB",
+      "text_secondary": "#9CA3AF",
+      "text_muted": "#6B7280",
+      "badge_moq_bg": "#1E293B",
+      "badge_moq_text": "#F59E0B",
+      "accent_emerald": "#10B981",
+      "alert_red": "#EF4444"
+    }
+  },
+  "typography": {
+    "heading_font": "Barlow Condensed, Outfit, sans-serif",
+    "body_font": "Plus Jakarta Sans, Inter, sans-serif",
+    "mono_font": "JetBrains Mono, monospace",
+    "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight uppercase",
+    "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight uppercase",
+    "h3_card": "text-xl sm:text-2xl font-semibold",
+    "label_overline": "text-xs uppercase tracking-[0.2em] font-mono text-amber-400"
+  },
+  "spacing_and_layout": {
+    "container_padding": "px-4 sm:px-8 lg:px-12 max-w-7xl mx-auto",
+    "section_gap": "py-16 lg:py-24",
+    "grid_bento": "grid grid-cols-1 md:grid-cols-8 lg:grid-cols-12 gap-6 lg:gap-8",
+    "card_padding": "p-6 sm:p-8"
+  },
+  "image_urls": {
+    "jeans": [
+      {
+        "url": "https://images.unsplash.com/photo-1714729382668-7bc3bb261662?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA0MTJ8MHwxfHNlYXJjaHwxfHxtZW5zJTIwZGVuaW0lMjBqZWFucyUyMHdob2xlc2FsZSUyMGZhc2hpb24lMjBzdHVkaW98ZW58MHx8fHwxNzg5NjE3Njg2fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Wholesale denim jeans rack batch collection",
+        "category": "Jeans Wholesale Bulk Rack"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1714143136372-ddaf8b606da7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA0MTJ8MHwxfHNlYXJjaHszfHxtZW5zJTIwZGVuaW0lMjBqZWFucyUyMHdob2xlc2FsZSUyMGZhc2hpb24lMjBzdHVkaW98ZW58MHx8fHwxNzg5NjE3Njg2fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Classic slim fit blue jeans for wholesale catalog",
+        "category": "Jeans Product Detail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1542272604-787c3835535d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA0MTJ8MHwxfHNlYXJjaHw0fHxtZW5zJTIwZGVuaW0lMjBqZWFucyUyMHdob2xlc2FsZSUyMGZhc2hpb24lMjBzdHVkaW98ZW58MHx8fHwxNzg5NjE3Njg2fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Assorted denim jeans shades and finishes",
+        "category": "Jeans Catalog Showcase"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1721637286605-ae9be19d681f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA0MTJ8MHwxfHNlYXJjaHwyfHxtZW5zJTIwZGVuaW0lMjBqZWFucyUyMHdob2xlc2FsZSUyMGZhc2hpb24lMjBzdHVkaW98ZW58MHx8fHwxNzg5NjE3Njg2fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Stacked wholesale denim jeans inventory",
+        "category": "Jeans Warehouse Stack"
+      }
+    ],
+    "shirts": [
+      {
+        "url": "https://images.unsplash.com/photo-1621096029176-9dbb22a56808?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzOTB8MHwxfHNlYXJjaHwxfHxtZW5zJTIwZm9ybWFsJTIwY2FzdWFsJTIwc2hpcnQlMjBmYXNoaW9uJTIwc3R1ZGlvfGVufDB8fHx8MTc4OTYxNzY4Nnww&ixlib=rb-4.1.0&q=85",
+        "alt": "Premium Men Black Formal Shirt",
+        "category": "Shirts Product Detail"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1783430018108-7415adec78a1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzOTB8MHwxfHNlYXJjaHw0fHxtZW5zJTIwZm9ybWFsJTIwY2FzdWFsJTIwc2hpcnQlMjBmYXNoaW9uJTIwc3R1ZGlvfGVufDB8fHx8MTc4OTYxNzY4Nnww&ixlib=rb-4.1.0&q=85",
+        "alt": "Men Royal Blue Cotton Casual Wholesale Shirt",
+        "category": "Shirts Product Detail"
+      },
+      {
+        "url": "https://images.pexels.com/photos/19793807/pexels-photo-19793807.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Detailed structured formal men shirt studio shot",
+        "category": "Shirts Catalog Showcase"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1776007087028-77668b485e2b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzOTB8MHwxfHNlYXJjaHwzfHxtZW5zJTIwZm9ybWFsJTIwY2FzdWFsJTIwc2hpcnQlMjBmYXNoaW9uJTIwc3R1ZGlvfGVufDB8fHx8MTc4OTYxNzY4Nnww&ixlib=rb-4.1.0&q=85",
+        "alt": "Checkered casual cotton shirt bulk lot",
+        "category": "Shirts Casual Variety"
+      }
+    ],
+    "warehouse_and_factory": [
+      {
+        "url": "https://images.unsplash.com/photo-1705250466297-90035b3a2b26?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzB8MHwxfHNlYXJjaHw0fHx0ZXh0aWxlJTIwd2FyZWhvdXNlJTIwY2xvdGhpbmclMjB3aG9sZXNhbGUlMjBmYWJyaWMlMjBzdGFja3N8ZW58MHx8fHwxNzg5NjE3Njg2fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Industrial fabric stacks and textile inventory",
+        "category": "About & Wholesales Godam Warehouse"
+      },
+      {
+        "url": "https://images.pexels.com/photos/28460324/pexels-photo-28460324.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "alt": "Denim roll fabric stacks in Ulhasnagar 5 manufacturing hub",
+        "category": "Raw Fabric Production"
+      }
+    ]
+  },
+  "pages_and_features": {
+    "home_page": {
+      "hero_title": "Kapda Godam",
+      "hero_subtitle": "Wholesale Jeans & Shirts Hub | Direct From Ulhasnagar Manufacturer",
+      "badge": "WHOLESALE ONLY — MINIMUM ORDER QUANTITY (MOQ) APPLIES",
+      "ctas": ["View Jeans Catalog", "View Shirts Catalog", "Wholesale Inquiry"],
+      "sections": [
+        "Hero Banner with Industrial Denim Backdrop",
+        "B2B Wholesale Trust Bar (Direct Factory Rates, MOQ 30-50 Pcs, Fast Dispatch, All India Delivery)",
+        "Featured Jeans Bulk Lots (SKU, Fabric, MOQ, Wholesale Price)",
+        "Featured Shirts Bulk Lots (SKU, Material, MOQ, Wholesale Price)",
+        "Why Retailers Choose Kapda Godam (Ulhasnagar 5 Legacy)",
+        "Wholesale Benefits & Bulk Tier Breakdown",
+        "About Owners: Shamsuddin Idrisi & Tabrez Idrisi",
+        "Direct Contact & Wholesale Enquiry Callout"
+      ]
+    },
+    "jeans_page": {
+      "filters": ["Fit Type (Slim, Straight, Tapered, Regular)", "Size (28, 30, 32, 34, 36, 38)", "Wash / Color (Light Blue, Dark Indigo, Black, Grey, Distressed)", "Price Range", "Search SKU/Name"],
+      "card_info": ["Product Image", "Product Name", "SKU / Item Code", "Fabric/GSM", "Colors Available", "MOQ Requirement", "Wholesale Price / Piece", "Stock Availability", "Add to Cart", "Instant Order"]
+    },
+    "shirts_page": {
+      "filters": ["Category (Formal, Casual, Printed, Linen, Oxford)", "Size (M, L, XL, XXL)", "Sleeve Type", "Price Range", "Search SKU/Name"],
+      "card_info": ["Product Image", "Product Name", "SKU / Item Code", "Fabric / Thread Count", "Colors Available", "MOQ Requirement", "Wholesale Price / Piece", "Stock Availability", "Add to Cart", "Instant Order"]
+    },
+    "product_details_page": {
+      "elements": [
+        "Multi-angle image gallery",
+        "Product Name, SKU Code & Category",
+        "MOQ Warning Banner with quantity stepper starting at MOQ value",
+        "Bulk Pricing Table (e.g. 30-50 pcs, 51-100 pcs, 101+ pcs)",
+        "Fabric & Material Breakdown (e.g., 98% Cotton 2% Elastane, 11.5 oz Denim)",
+        "Available Sizes & Color Bundles",
+        "Stock Meter (In Stock - Ready for Dispatch from Ulhasnagar Godam)",
+        "Add to Wholesale Cart & Direct WhatsApp Inquiry button with prepopulated message"
+      ]
+    },
+    "cart_page": {
+      "features": [
+        "Item breakdown with size distribution",
+        "Real-time MOQ Validation (Highlights warnings if quantity < MOQ per product)",
+        "Total piece counter and estimated wholesale price calculation",
+        "Edit item bundles / Clear Cart",
+        "Proceed to Wholesale Checkout CTA"
+      ]
+    },
+    "wholesale_order_page": {
+      "form_fields": [
+        "Buyer Full Name",
+        "Business / Shop Name",
+        "Mobile Number (+91)",
+        "WhatsApp Number (+91)",
+        "Email Address",
+        "Delivery Address",
+        "City",
+        "State",
+        "Pincode",
+        "GSTIN (Optional for tax invoice)",
+        "Order Notes / Special Packing Instructions"
+      ],
+      "validation": "Ensures all cart items satisfy MOQ before allowing submission.",
+      "outcome": "Submits wholesale order to system, generates Order ID, shows confirmation summary & WhatsApp direct link."
+    },
+    "order_confirmation_page": {
+      "elements": [
+        "Order ID & Submission Timestamp",
+        "Customer & Business details summary",
+        "Ordered Items with SKU, MOQ, Quantities & Total Estimated Amount",
+        "Current Order Status: Pending Confirmation",
+        "Direct WhatsApp confirmation button to connect with Shamsuddin Idrisi & Tabrez Idrisi"
+      ]
+    },
+    "about_us_page": {
+      "content": "Kapda Godam is a premier wholesale clothing manufacturer based in Ulhasnagar 5, Maharashtra. Founded and operated by Shamsuddin Idrisi and Tabrez Idrisi, we specialize in high-grade Men's Jeans and Shirts designed for retail store owners, garment distributors, and bulk resellers across India."
+    },
+    "contact_page": {
+      "address": "Kapda Godam, Ulhasnagar 5, Maharashtra, India",
+      "owners": "Shamsuddin Idrisi & Tabrez Idrisi",
+      "placeholders": {
+        "phone": "+91 XXXXX XXXXX",
+        "whatsapp": "+91 XXXXX XXXXX",
+        "email": "hello@kapdagodam.in"
+      },
+      "features": ["Contact Form", "Wholesale Enquiry Form", "Interactive Map View Placeholder"]
+    },
+    "admin_dashboard": {
+      "login": "Secure Admin Login modal / page with seed credentials",
+      "capabilities": [
+        "Product Management (Create, Edit, Delete Jeans & Shirts)",
+        "Image URL Uploader / Manager",
+        "Stock Level & Wholesale Price / MOQ updates",
+        "Order Management (Filter by status: Pending, Confirmed, Processing, Ready for Dispatch, Dispatched, Delivered, Cancelled)",
+        "Customer & B2B Inquiry lead views"
+      ]
+    }
+  },
+  "instructions_to_main_agent": [
+    "Ensure the website clearly highlights 'WHOLESALE ONLY' across top banners, product cards, and checkout to avoid retail buyer confusion.",
+    "Implement real-time MOQ checking in the cart and order submission flow.",
+    "Use exact contact placeholders '+91 XXXXX XXXXX' and 'hello@kapdagodam.in' where requested.",
+    "Mention owners Shamsuddin Idrisi & Tabrez Idrisi prominently in About Us, Contact, and Footer sections.",
+    "Make sure all interactive elements (buttons, inputs, filters, tabs, status dropdowns) carry explicit 'data-testid' attributes for reliable automated testing.",
+    "Use Sonner for toasts (located in components/ui/sonner) for smooth feedback on cart addition, MOQ validation errors, and order submission.",
+    "Maintain high contrast dark UI with polished gold accents and clean industrial denim aesthetic."
+  ]
+}

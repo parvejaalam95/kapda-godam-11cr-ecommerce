@@ -1,0 +1,10 @@
+import { useState, type FormEvent } from "react";
+import { useNavigate } from "react-router-dom";
+import { LockKeyhole, ArrowRight } from "lucide-react";
+import { useMutation } from "@tanstack/react-query";
+import { apiPost } from "@/lib/api";
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import type { AdminUser } from "@/lib/types";
+
+export default function AdminLogin() { const navigate = useNavigate(); const [username, setUsername] = useState(""); const [password, setPassword] = useState(""); const [error, setError] = useState(""); const mutation = useMutation({ mutationFn: () => apiPost<AdminUser>("/admin/login", { username, password }), onSuccess: () => navigate("/admin/dashboard"), onError: () => setError("Those credentials do not match the Kapda Godam owner desk.") }); const submit = (event: FormEvent) => { event.preventDefault(); setError(""); mutation.mutate(); }; return <div className="auth-page" data-testid="admin-login-page"><div className="auth-card"><div className="auth-lock"><LockKeyhole size={20} /></div><p className="eyebrow">OWNER ACCESS / PRIVATE</p><h1>Admin <span>desk.</span></h1><p className="mt-4 text-sm leading-7 text-slate-400">Manage wholesale lots, stock and incoming buying briefs from one place.</p><form onSubmit={submit} className="mt-8 space-y-5"><label>Username<Input required value={username} onChange={(event) => setUsername(event.target.value)} placeholder="owner@kapdagodam.in" data-testid="admin-username-input" /></label><label>Password<Input required type="password" value={password} onChange={(event) => setPassword(event.target.value)} placeholder="••••••••" data-testid="admin-password-input" /></label>{error && <p className="form-error" data-testid="admin-login-error">{error}</p>}<Button className="w-full" type="submit" disabled={mutation.isPending} data-testid="admin-login-submit">Enter admin desk <ArrowRight size={16} /></Button></form><p className="mt-7 border-t border-white/10 pt-5 text-xs leading-6 text-slate-500">Demo owner access is available for the Kapda Godam preview.</p></div></div>; }
