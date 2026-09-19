@@ -1,0 +1,10 @@
+export const BRAND_NAME = "11 CR";
+export const SHOP_NAME = "Kapda Godam";
+export const BUSINESS_TYPE = "Wholesale Clothing";
+export const LOCATION = "Ulhasnagar 5, Maharashtra, India";
+export const OWNERS = ["Mr. Shamsuddin", "Mr. Tabrez"] as const;
+export const PHONE = "7028301259";
+export const PHONE_LINK = "tel:+917028301259";
+export const EMAIL = "Parvezaalam22098@gmail.com";
+export const EMAIL_LINK = `mailto:${EMAIL}`;
+export const WHATSAPP_LINK = "https://wa.me/917028301259?text=Hello%2011%20CR%20at%20Kapda%20Godam%2C%20I%20am%20interested%20in%20a%20wholesale%20order.";

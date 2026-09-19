@@ -1,6 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useState, type ReactNode } from "react";
 import { toast } from "sonner";
 import type { CartLine, Product } from "@/lib/types";
+import { BRAND_NAME } from "@/lib/brand";
 
 interface CartContextValue {
   lines: CartLine[];
@@ -17,7 +18,8 @@ const CartContext = createContext<CartContextValue | null>(null);
 export function CartProvider({ children }: { children: ReactNode }) {
   const [lines, setLines] = useState<CartLine[]>(() => {
     try {
-      return JSON.parse(localStorage.getItem("kapda-godam-cart") ?? "[]") as CartLine[];
+      const saved = JSON.parse(localStorage.getItem("kapda-godam-cart") ?? "[]") as CartLine[];
+      return saved.map((line) => ({ ...line, product: { ...line.product, brand: line.product.brand || BRAND_NAME, name: line.product.brand || line.product.name.startsWith(`${BRAND_NAME} `) ? line.product.name : `${BRAND_NAME} ${line.product.name}` } }));
     } catch {
       return [];
     }

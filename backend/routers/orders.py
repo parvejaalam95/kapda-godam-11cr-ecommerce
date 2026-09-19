@@ -28,7 +28,7 @@ async def create_order(payload: WholesaleOrderCreate):
             raise HTTPException(status_code=422, detail=f"{product['name']} requires a minimum of {product['moq']} pieces")
         if item.quantity > product["stock"]:
             raise HTTPException(status_code=422, detail=f"Only {product['stock']} pieces available for {product['name']}")
-        order_items.append({"product_id": product["id"], "name": product["name"], "sku": product["sku"], "quantity": item.quantity, "unit_price": product["price"], "line_total": item.quantity * product["price"]})
+        order_items.append({"product_id": product["id"], "brand": product.get("brand", "11 CR"), "name": product["name"], "sku": product["sku"], "quantity": item.quantity, "unit_price": product["price"], "line_total": item.quantity * product["price"]})
     order = WholesaleOrder(id=str(uuid.uuid4()), order_id=f"KG-{datetime.now(timezone.utc).strftime('%y%m%d')}-{uuid.uuid4().hex[:5].upper()}", **payload.model_dump(exclude={"items"}), items=order_items, total_estimate=sum(item["line_total"] for item in order_items))
     await db.orders.insert_one(order.model_dump())
     return order

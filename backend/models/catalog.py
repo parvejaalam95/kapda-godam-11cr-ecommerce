@@ -6,6 +6,7 @@ from pydantic import BaseModel, Field, ConfigDict
 
 
 class ProductBase(BaseModel):
+    brand: str = Field(default="11 CR", min_length=1)
     name: str = Field(min_length=2)
     sku: str = Field(min_length=2)
     category: str = Field(pattern="^(jeans|shirts)$")
@@ -26,6 +27,7 @@ class ProductCreate(ProductBase):
 
 
 class ProductUpdate(BaseModel):
+    brand: Optional[str] = Field(default=None, min_length=1)
     name: Optional[str] = Field(default=None, min_length=2)
     sku: Optional[str] = Field(default=None, min_length=2)
     category: Optional[str] = Field(default=None, pattern="^(jeans|shirts)$")

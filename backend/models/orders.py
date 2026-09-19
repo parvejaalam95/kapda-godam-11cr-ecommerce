@@ -37,6 +37,7 @@ class WholesaleOrderCreate(BaseModel):
 
 class OrderItem(BaseModel):
     product_id: str
+    brand: str = "11 CR"
     name: str
     sku: str
     quantity: int

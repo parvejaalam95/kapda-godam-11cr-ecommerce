@@ -7,15 +7,15 @@ top of it.
 
 ## Kapda Godam application
 
-This working MVP is a wholesale-only catalog and buying desk for Kapda Godam,
-Ulhasnagar 5. It includes seeded Men's Jeans and Men's Shirts, search/filtering,
+This working MVP is a wholesale-only catalog for the **11 CR** clothing brand,
+available through **Kapda Godam** in Ulhasnagar 5. It includes seeded Men's Jeans and Men's Shirts, search/filtering,
 MOQ-aware cart, wholesale order submission and confirmation, enquiry capture, and
 an owner dashboard for product and order management.
 
 The selected implementation uses this template's running FastAPI + MongoDB
 backend and React + TypeScript frontend so it can be previewed immediately.
-Product image URLs are curated Unsplash/Pexels references and contact details are
-placeholders until the business supplies real phone and WhatsApp numbers.
+Product image URLs are curated Unsplash/Pexels references. Business contact:
+`7028301259` / `Parvezaalam22098@gmail.com`.
 
 ### Key API endpoints
 

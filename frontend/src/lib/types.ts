@@ -1,5 +1,6 @@
 export interface Product {
   id: string;
+  brand: string;
   name: string;
   sku: string;
   category: "jeans" | "shirts";
@@ -25,6 +26,7 @@ export type OrderStatus = "Pending" | "Confirmed" | "Processing" | "Ready for Di
 
 export interface OrderItem {
   product_id: string;
+  brand: string;
   name: string;
   sku: string;
   quantity: number;
